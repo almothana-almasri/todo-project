@@ -1,0 +1,74 @@
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  nav {
+    position: absolute;
+    top: 0;
+    left: 120px;
+    width: 500px;
+    height: 100px;
+    background-color: #ff7b00;
+  }
+  li {
+    font-size: x-large;
+    color: azure;
+    margin: 10px; 
+    padding: 25px;
+  }
+  ul {
+    list-style-type: none;
+    display: flex;
+  }
+  h1{ 
+    left: 120px;
+    width: 500px;
+    top: auto;
+    position: absolute;
+    font-size: x-large;
+    background-color: #ff7b00;
+  }
+  h2{
+    position: relative;
+    font-size: larger;
+    top: 70px;
+    left: 260px;
+  }
+  p {
+    background-color: #96D4D4;
+    font-size: large;
+    position: relative;
+    top: 80px;
+    width: 502px;
+    left: 150px;
+  }
+  h3 {
+    position: relative;
+    left: 300px;
+    font-size: larger;
+  }
+  form {
+    position: relative;
+    left: 240px;
+  }
+  label {
+    padding: 10px;
+  }
+  button {
+    position: relative;
+    left: 110px;
+    padding: 5px;
+    margin: 10px;
+  }
+footer {
+    position: absolute;
+    bottom: 0;
+    height: auto;
+    background-color: #ff7b00;
+    width: 550px;
+  }
+  p {
+    font-size: medium;
+    text-align: center;
+  }
