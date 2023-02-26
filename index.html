@@ -5,39 +5,46 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mothana To-Do Website</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/home.css">
+
     </head>
     <body>
         <header>
+            
             <section>
-                <img alt="TO-Do Logo" src="assets/1560.png">
-                <h1>Best To-do website</h1>
+            
+                <img src="assets/1560.png" alt="Logo" class="Logo" width="100" height="100">
+                <h1>Best To-do List website</h1>
             </section>
-            <nav>
+            <nav class="nav-box">
               <ul>
                 <li><a href="./">Home</a></li>
-                <li><a href="ContactUs.html">Contact us</a></li>
-                <li><a href="Lists.html">Lists</a></li>
+                <li><a href="lists.html">To-Do List</a></li>
                 <li><a href="about.html">About Us</a></li>
               </ul>  
             </nav>
         </header>
         <main>
-            <table border="1">
+            <table>
                 <tr>
                     <th>Tasks</th>
                     <th>Status</th>
                 </tr>
                 <tr>
-                    <td>Wake up</td>
-                    <td>Done</td>
+                    <td><input type="text" placeholder="Add Task1"></td>
+                    <td><input type="checkbox" name="task1" value="AddTask 1">
+                        Task 1</td>
                 </tr>
                 <tr>
-                    <td>Study</td>
-                    <td>In Progress</td>
+                    <td><input type="text" placeholder="Add Task2"></td>
+                    <td><input type="checkbox" name="task2" value="Task 2">
+                        Task 2</td>
                 </tr>
                 <tr>
-                    <td>Sleep</td>
-                    <td>On Hold</td>
+                    <td><input type="text" placeholder="Add Task3"></td>
+                    <td><input type="checkbox" name="task3" value="Task 3">
+                        Task 3</td>
                 </tr>
             </table>
         </main>
