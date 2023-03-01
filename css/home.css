@@ -1,53 +1,63 @@
+body{
+  background-color: rgb(255, 234, 219);
+}
 .logo{
     position: absolute;
     top: 0;
     left: 0;
+    width: 10%;
+    height: 10%;
+    margin: 1%;
   }
   .nav-box {
     position: absolute;
     top: 0;
-    left: 120px;
-    width: 500px;
-    height: 100px;
-    background-color: #ff7b00;
-  }
-  table, th, td {
-    position: relative;
-    left: 25px;
-    top: 100px;
-    text-align: center;
-    padding: 15px;
-    font-size: large;
-    border: 1px solid white;
-    border-collapse: collapse;
-  }
-  th, td {
-    background-color: #96D4D4;
-  }
-  h1{ 
-    left: 60px;
-    width: auto;
-    top: 150px;
-    position: absolute;
-    font-size: x-large;
+    left: 11%;
+    width: 89%;
+    height: 11%;
     background-color: #ff7b00;
   }
   li {
-    font-size: x-large;
+    font-size: 100%;
     color: azure;
-    margin: 10px; 
-    padding: 25px;
+    
   }
   ul {
+    top: 35%;
+    position: relative;
     list-style-type: none;
     display: flex;
+    justify-content: space-around;
+  }
+  h1{ 
+    top: 12%;
+    left: 11%;
+    width: auto;
+    position: absolute;
+    font-size: x-large;
+    background-color: #bfb4a6;
+  }
+  table{
+    position: absolute;
+    margin: 5%;
+    top: 25%;
+    width: 90%;
+  }
+  table, th, td {
+    text-align: center;
+    padding: 1%;
+    font-size: large;
+    border: 1px solid white;
+  }
+  th, td {
+    background-color: #bfb4a6;
   }
   footer {
     position: absolute;
     bottom: 0;
-    height: auto;
+    height: 5%;
     background-color: #ff7b00;
-    width: 550px;
+    width: 100%;
   }
   p {
     font-size: medium;
