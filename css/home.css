@@ -37,6 +37,17 @@ body{
     font-size: x-large;
     background-color: #bfb4a6;
   }
+  footer {
+    position: absolute;
+    bottom: 0;
+    height: 5%;
+    background-color: #ff7b00;
+    width: 100%;
+  }
+  p {
+    font-size: medium;
+    text-align: center;
+  }
   table{
     position: absolute;
     margin: 5%;
@@ -51,15 +62,4 @@ body{
   }
   th, td {
     background-color: #bfb4a6;
-  }
-  footer {
-    position: absolute;
-    bottom: 0;
-    height: 5%;
-    background-color: #ff7b00;
-    width: 100%;
-  }
-  p {
-    font-size: medium;
-    text-align: center;
   }
