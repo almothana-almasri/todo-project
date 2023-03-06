@@ -1,3 +1,5 @@
+// todo-js
+
 let name = prompt("What is your name?");
 console.log("Welcome ",name);
 
@@ -10,3 +12,11 @@ age > 0 ? console.log("Age= ",age) : alert("Age cannot be less than or equal to 
 let skip = confirm("Do you want to skip the welcoming message?");
 console.log("skipped welcoming message= ",skip);
 if (!skip) { gender.toLowerCase() == "male" ? alert("Welcome, Mr. " + name + "!") : gender.toLowerCase() == "female" ? alert("Welcome, Ms. " + name + "!") : alert("Welcome, " + name + "!"); }
+
+//todo-js2
+
+let answers = []
+threeMoreQuestions()
+pushIntoArray(answers)
+checkInvalid(answers)
+printAnswers(answers)
