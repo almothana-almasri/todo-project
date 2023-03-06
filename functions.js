@@ -1,4 +1,11 @@
+'use strict'
+
 //todo-js2
+
+const answers = []
+let questionOne = ""
+let questionTwo = ""
+let questionThree = ""
 
 function threeMoreQuestions(){
     questionOne = prompt("Do you like Mansaf? (Yes/No)")

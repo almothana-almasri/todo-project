@@ -1,3 +1,5 @@
+'use strict'
+
 // todo-js
 
 let name = prompt("What is your name?");
@@ -15,7 +17,6 @@ if (!skip) { gender.toLowerCase() == "male" ? alert("Welcome, Mr. " + name + "!"
 
 //todo-js2
 
-let answers = []
 threeMoreQuestions()
 pushIntoArray(answers)
 checkInvalid(answers)
